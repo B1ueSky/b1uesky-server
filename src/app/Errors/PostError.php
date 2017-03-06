@@ -13,4 +13,10 @@ interface PostError
         'httpStatusCode' => 404,
         'text' => 'Post Creation Failed',
     ];
+
+    const POST_ALREADY_DELETED = [
+        'id' => 10102,
+        'httpStatusCode' => 404,
+        'text' => 'Post Already Deleted',
+    ];
 }
